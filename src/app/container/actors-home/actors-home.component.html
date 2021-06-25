@@ -1,0 +1,31 @@
+
+<div>
+    <h2>Actors Informations</h2>
+</div>
+
+<div class="top">
+    <app-actor-info-view [selectRow]="selectRowData" (actorInfoViewEvent)="autoSelectRow($event)"></app-actor-info-view>
+</div>
+
+<table style="width:100%">
+    <thead>
+        <th>#</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Rating</th>
+        <th>Contributions Movie</th>
+        <th>Age</th>
+        <th>View</th>
+    </thead>
+    <tbody>
+        <tr [ngClass]="{'colour':data.id == rowId}" *ngFor="let data of actorsData">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.country}}</td>
+            <td>{{data.rating}}</td>
+            <td>{{data.contributionsMovie}}</td>
+            <td>{{data.age}}</td>
+            <td><button (click)=view(data)>View</button></td>
+        </tr>
+    </tbody>
+</table>

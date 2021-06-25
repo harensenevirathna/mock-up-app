@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "name": "Michael Caine",
+        "country": "UK",
+        "rating": "8.5",
+        "contributionsMovie": "20",
+        "age": "62"
+    },
+    {
+        "id":"2",
+        "name": "Daniel Day-Lewis",
+        "country": "USA",
+        "rating": "7.5",
+        "contributionsMovie": "32",
+        "age": "57"
+    },
+    {
+        "id":"3",
+        "name": "Liam Neeson",
+        "country": "USA",
+        "rating": "6.5",
+        "contributionsMovie": "40",
+        "age": "63"
+    },
+    {
+        "id":"4",
+        "name": "Anthony Hopkins",
+        "country": "UK",
+        "rating": "7.9",
+        "contributionsMovie": "18",
+        "age": "65"
+    },
+    {
+        "id":"5",
+        "name": "Benedict Cumberbatch",
+        "country": "New zealand",
+        "rating": "9.5",
+        "contributionsMovie": "40",
+        "age": "48"
+    },
+    {
+        "id":"6",
+        "name": "Ben Kingsley",
+        "country": "Jaman",
+        "rating": "7.2",
+        "contributionsMovie": "50",
+        "age": "58"
+    }
+
+]

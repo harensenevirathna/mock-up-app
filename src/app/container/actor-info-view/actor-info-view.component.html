@@ -1,0 +1,31 @@
+<div>
+    <table *ngIf="selectRow !=null" style="width: 40%;color: darkslategray;">
+        <tr>
+            <td>Name</td>
+            <td>{{selectRow?.name}}</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>{{selectRow?.country}}</td>
+        </tr>
+        <tr>
+            <td>Rating</td>
+            <td>{{selectRow?.rating}}</td>
+        </tr>
+        <tr>
+            <td>ContributionsMovie</td>
+            <td>{{selectRow?.contributionsMovie}}</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>{{selectRow?.age}}</td>
+        </tr>
+    </table>
+
+    <table *ngIf="selectRow !=null"  style="width: 30%; margin-top: 2%;color: darkslategray;">
+        <tr>
+            <td style="font-weight: bold;">You can Mark person in the table</td>
+            <td><button (click)="autoSelectTable()">Mark</button></td>
+        </tr>
+    </table>
+</div>
